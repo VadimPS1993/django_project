@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sitewomen"
+version = "0.1.0"
+description = ""
+authors = ["PrihodkoVS <v_adi_m@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipython = "^8.25.0"
+django = ">=4.2.9,<5.0.0"
+django-debug-toolbar = "^4.4.2"
+pillow = "^10.3.0"
+social-auth-app-django = "^5.4.1"
+werkzeug = "^3.0.3"
+pyopenssl = "^24.1.0"
+psycopg2 = "^2.9.9"
+django-simple-captcha = "^0.6.0"
+redis = "^5.0.7"
+hiredis = "^2.3.2"
+ruff = "^0.5.2"
+mypy = "^1.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
